@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 18px;
+  background-color: #ccc;
+  margin-top: 60px;
+max-height: 100%;
+}
+
+#main-content,
+#sidebar {
+  width: 500px;
+  padding: 30px;
+}
+
+#main-content {
+  float: left;
+  background: #fff;
+}
+
+#sidebar {
+  background: #eee;
+}
+.celeste {
+  height: 200px;
+  width: 200px;
+}
+.card {
+  display: inline-block;
+  padding-right: 10px;
+}
+.container {
+  padding-left: 100px;
+}
+.footer {
+  position: relative;
+  top: 100px;
+}
+.footer1{
+  position: fixed;
+  margin-top: 2%;
+  height: 50 width: 100%;
+  text-align: center;
+  font-size: 0.8em;
+  bottom: 0;}
